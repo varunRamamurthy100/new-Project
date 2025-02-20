@@ -16,7 +16,6 @@ export class TemplateFormComponent {
     city : '',
     state :'',
     zipCode :'',
-    varun : ''
     }
   
 }
