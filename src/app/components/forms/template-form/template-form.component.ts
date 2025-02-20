@@ -16,6 +16,11 @@ export class TemplateFormComponent {
     city : '',
     state :'',
     zipCode :'',
+    isAcceptTerms : ''
     }
-  
+    formValue: any;
+
+    onSubmit(){
+  this.formValue = this.studentObj;
+    }
 }
