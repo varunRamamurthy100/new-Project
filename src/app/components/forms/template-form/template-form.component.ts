@@ -9,7 +9,14 @@ import {FormsModule} from  '@angular/forms'
   styleUrl: './template-form.component.css'
 })
 export class TemplateFormComponent {
-  studentObj  : any = [
-
-  ]
+  studentObj  : any = {
+    firstName:'',
+    lastName:'',
+    userName : '',
+    city : '',
+    state :'',
+    zipCode :'',
+    varun : ''
+    }
+  
 }
