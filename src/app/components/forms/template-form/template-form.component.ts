@@ -5,7 +5,7 @@ import {FormsModule} from  '@angular/forms'
 @Component({
   selector: 'app-template-form',
   standalone: true,
-  imports:[FormsModule], 
+  imports:[FormsModule, JsonPipe], 
   templateUrl: './template-form.component.html',
   styleUrl: './template-form.component.css'
 })
@@ -22,6 +22,7 @@ export class TemplateFormComponent {
     formValue: any;
 
     onSubmit(){
+      debugger
   this.formValue = this.studentObj;
     }
 }
